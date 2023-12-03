@@ -1,0 +1,26 @@
+.body{
+    background-color: tomato;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.sidebar__column{
+    width: 33%;
+}
+
+.sidebar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar__column:last-child span{
+    margin-right: 3px;
+}
+.sidebar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
