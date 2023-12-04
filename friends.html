@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Friends</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar__column">
+          <span>No Service</span>
+          <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="sidebar__column">
+          <span>21:23</span>
+        </div>
+        <div class="sidebar__column">
+          <span>100%</span>
+          <i class="fa-solid fa-battery-full"></i>
+        </div>
+      </div>
+
+    <header class="main-header">
+        <div class="main-header__columns">
+            <div class="main-header__column">
+                <h1 class="main-header__title">Friends</h1>
+            </div>
+            <div class="main-header__column">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                <i class="fa-solid fa-music fa-lg"></i>
+                <i class="fa-solid fa-gear fa-lg"></i>
+            </div>
+        </div>
+        <div class="main-header__bar">
+            <i class="fa-solid fa-circle-exclamation"></i><h6 class="main-header__bar__text"> Friend's Names Display <i class="fa-solid fa-chevron-right"></i></h1>
+        </div>
+
+        <div class="main-header__profile">
+            <div class="main-header__profile__column">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCoCJyKU6ra-aeS5EYagFc6q-ZqazbPntj7A&usqp=CAU" class="profile-img xl">
+                <h1>빵빵이</h1>
+            </div>
+            <div class="main-header__horizon"></div>
+        </div>
+
+        <div class="main-header__channel">
+            <div class="main-header__channel__column">
+                <h6>Channel</h6>
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="main-header__channel__column">
+                <div class="main-header__channel__image">
+                    <img src="data:image/png;base64,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" class="profile-img xl">
+                    <h6 class="main-header__channel__text">Channel</h6>
+                </div>
+                <div class="main-header__channel__right">
+                    <span>2 <i class="fa-solid fa-chevron-right"></i></span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <div class="nav-list__column">
+                <li>
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </li>
+            </div>
+            <div class="nav-list__column">
+                <li>
+                    <i class="fa-regular fa-comment fa-2xl"></i>
+                </li>
+            </div>
+            <div class="nav-list__column">
+                <li>
+                    <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+                </li>
+            </div>
+            <div class="nav-list__column">
+                <li>
+                    <i class="fa-solid fa-ellipsis fa-2xl"><div class="nav__doted"></div></i>
+                </li>
+            </div>
+        </ul>
+    </nav>
+      <script src="https://kit.fontawesome.com/0f43e40f4c.js" crossorigin="anonymous"></script>
+</body>
+</html>
