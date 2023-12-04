@@ -6,6 +6,7 @@
 @import "../components/navbar.css";
 /* Screen CSS*/
 @import "../screens/index.css";
+@import "../screens/friends.css";
 
 
 body{
