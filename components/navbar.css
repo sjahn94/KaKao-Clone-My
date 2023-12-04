@@ -10,8 +10,7 @@
 }
 
 .nav-list__column{
-    padding: 30px 0px;
-    margin: 0px 20px;
+    padding: 30px 20px;
 }
 
 .nav-list__column:last-child{
@@ -25,6 +24,6 @@
     height: 6px;
     border-radius: 50%;
     bottom: 45px;
-    left: 25px;
+    left: 45px;
 }
 
