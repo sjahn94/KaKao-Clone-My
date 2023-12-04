@@ -2,11 +2,11 @@
 @import "reset.css";
 
 /* Component CSS */
-@import "../components/sidebar.css";
-@import "../components/navbar.css";
+@import "components/sidebar.css";
+@import "components/navbar.css";
 /* Screen CSS*/
-@import "../screens/index.css";
-@import "../screens/friends.css";
+@import "screens/index.css";
+@import "screens/friends.css";
 
 
 body{
