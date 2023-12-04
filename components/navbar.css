@@ -6,10 +6,11 @@
     width: 100%;
     bottom: 0px;
     border-top: 1px solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
 }
 
 .nav-list__column{
-    padding: 30px 50px;
+    padding: 30px;
     
 }
 
@@ -24,7 +25,7 @@
     height: 6px;
     border-radius: 50%;
     bottom: 45px;
-    left: 80px;
+    left: 60px;
 }
 
 .main-header__columns{
