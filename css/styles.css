@@ -7,7 +7,7 @@
 /* Screen CSS*/
 @import "screens/index.css";
 @import "screens/friends.css";
-
+@import "screens/chats.css";
 
 body{
     font-family: 'Open Sans', sans-serif;

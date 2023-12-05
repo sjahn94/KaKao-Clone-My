@@ -36,6 +36,7 @@
 .main-header__profile__column{
     display: flex;
     align-items: center;
+    margin-top: 25px;
 }
 
 .main-header__profile__column img{
