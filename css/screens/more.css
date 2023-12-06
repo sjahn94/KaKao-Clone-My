@@ -1,0 +1,51 @@
+.more_setting_doted {
+  position: absolute;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  bottom: 38px;
+  right: 15px;
+}
+
+.more-header__columns {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.more-header__columns:first-child img {
+  width: 80px;
+  height: 80px;
+  border-radius: 24px;
+  margin-left: 20px;
+}
+
+.more-header__columns__icon {
+  margin-left: auto;
+  margin-right: 20px;
+  font-size: 28px;
+}
+
+.more-header__columns__text {
+  margin-left: 12px;
+}
+
+.more-header__columns__text h1 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.more-header__columns__text span {
+  opacity: 0.4;
+}
+.more-header__columns__excmark {
+  display: inline-block;
+  color: red;
+  border: 1px solid red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  text-align: center;
+}
