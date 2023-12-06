@@ -112,10 +112,10 @@
 .main-find__openchat__sideimg img{
     width: 100px;
     height:100px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 12px;
     position: absolute;
-    right:20px;
+    right: 10px;
     bottom: -20px;
     z-index: 1;
 }
