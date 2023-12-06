@@ -1,3 +1,7 @@
+.main-find__openchat{
+    position:relative;
+}
+
 .main-header__column{
     position:relative;
 }
@@ -14,7 +18,7 @@
 .main-header__icons{
     display:flex;
     justify-content: space-between;
-    margin: 50px 25px;
+    margin: 25px 25px;
 }
 
 .main-header__icons__columns{
@@ -41,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0px;
+    margin: 70px 0px;
 }
 
 .main-find__openchat__title{
@@ -86,7 +90,7 @@
 .main-find__openchat__profile__column{
     display: flex;
     align-items: center;
-    position: relative;
+    
 }
 .main-find__openchat__profile img{
     width:24px;
@@ -112,7 +116,7 @@
     border-radius: 12px;
     position: absolute;
     right:20px;
-    bottom: 70px;
+    bottom: -20px;
     z-index: 1;
 }
 
@@ -126,7 +130,7 @@
     z-index: 2;
     position: absolute;
     right:45px;
-    bottom: 75px;
+    bottom: -16px;
     border-radius: 12px;
     color: white;
 }
