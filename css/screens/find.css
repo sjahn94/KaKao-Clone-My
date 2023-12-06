@@ -1,0 +1,60 @@
+.main-header__column{
+    position:relative;
+}
+.setting__doted{
+    position: absolute;
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    bottom: 38px;
+    left: 60px;
+}
+
+.main-header__icons{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 25px;
+}
+
+.main-header__icons__columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header__icons__columns span{
+    margin-top: 30px;
+}
+
+.main-find__recommend__text{
+    opacity: 0.7;
+    margin-left: 20px;
+}
+
+.main-find__recommend__content{
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.main-find__recommend__columns:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.main-find__openchat__title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-find__openchat__title span:first-child{
+    opacity: 0.7;
+}
+
+.main-find__openchat__title span:last-child{
+    opacity: 0.5;
+}
