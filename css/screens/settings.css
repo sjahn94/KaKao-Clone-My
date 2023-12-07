@@ -1,13 +1,19 @@
+#go-back{
+    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 .setting-header__columns{
     display: flex;
     justify-content: space-between;
     margin: 40px 20px;
 }
 
-
 .setting-header__column h1{
     font-weight:600;
     font-size: 24px;
+    
 }
 
 .setting-header__line{

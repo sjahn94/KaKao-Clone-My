@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Friends</title>
+
+   
   </head>
   <body>
     <div class="sidebar">
@@ -24,7 +26,7 @@
     <header class="setting-header">
       <div class="setting-header__columns">
         <div class="setting-header__column">
-            <i class="fa-solid fa-chevron-left fa-xl"></i>
+            <button id="go-back"><i class="fa-solid fa-chevron-left fa-xl"></i></button>
         </div>
         <div class="setting-header__column">
             <h1 class="setting-header__title">Settings</h1>
@@ -112,5 +114,11 @@
       </ul>
     </nav>
     <script src="https://kit.fontawesome.com/0f43e40f4c.js" crossorigin="anonymous"></script>
+
+    <script>
+      document.querySelector("#go-back").addEventListener("click", () => {
+        history.back();
+      });
+    </script>
   </body>
 </html>
