@@ -6,10 +6,10 @@
     padding:0; 
     overflow:visible; 
     cursor:pointer;
-    -webkit-tap-highlight-color: transparent;
 }
 
-#go-back {border:0; background-color:transparent;cursor:pointer; -webkit-tap-highlight-color: transparent;}
+#go-back {border:0; background-color:transparent;cursor:pointer; color:#4C4C4C;}
+#go-back {color:#4C4C4C}
 
 .setting-header__columns{
     display: flex;
