@@ -7,6 +7,9 @@
     overflow:visible; 
     cursor:pointer;
 }
+
+#go-back {border:0 none;background-color:transparent;cursor:pointer}
+
 .setting-header__columns{
     display: flex;
     justify-content: space-between;
