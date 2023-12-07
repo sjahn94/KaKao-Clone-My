@@ -1,8 +1,11 @@
 #go-back{
-    background-color: white;
-    border: none;
-    margin: 0;
-    padding: 0;
+    background: inherit;
+    border:none; 
+    box-shadow:none; 
+    border-radius:0; 
+    padding:0; 
+    overflow:visible; 
+    cursor:pointer;
 }
 .setting-header__columns{
     display: flex;
