@@ -11,6 +11,9 @@
 #go-back {border:0; background-color:transparent;cursor:pointer; color:#4C4C4C;}
 #go-back {color:#4C4C4C}
 
+.setting-header__column i:first-child{
+    color:#4C4C4C;
+}
 .setting-header__columns{
     display: flex;
     justify-content: space-between;
