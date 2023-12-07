@@ -4,7 +4,32 @@
     margin: 40px 20px;
 }
 
+
 .setting-header__column h1{
     font-weight:600;
     font-size: 24px;
+}
+
+.setting-header__line{
+    opacity: 0.4;
+}
+.main-settings__column{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin: 40px 20px;
+}
+
+.main-settings__line{
+    margin: 20px 0px;
+    opacity: 0.1;
+}
+
+.main-settings__column i{
+    margin-right: 15px;
+}
+
+.main-settings__column span{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
 }
