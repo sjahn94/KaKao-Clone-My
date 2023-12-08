@@ -3,6 +3,10 @@
     display: flex;
     justify-content: center;
     padding: 5px 5px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 6;
 }
 
 .sidebar__column{
@@ -21,6 +25,8 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .sidebar__column i:last-child{
     margin-right: 5px;
 }
+
