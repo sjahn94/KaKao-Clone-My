@@ -1,9 +1,12 @@
 .main-header__columns{
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
+.main-header__column:nth-child(2){
+    margin-top: 10px;
+}
 .main-header__title{
     font-size: 34px;
     font-weight: 600;
