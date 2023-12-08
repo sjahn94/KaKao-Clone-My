@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Friends</title>
+
+  </head>
+  <body id="chat-screen">
+    <div class="sidebar">
+      <div class="sidebar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="sidebar__column">
+        <span>21:23</span>
+      </div>
+      <div class="sidebar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    
+    <header class="chat-header">
+        <div class="chat-header__column">
+            <button id="go-back"><i class="fa-solid fa-chevron-left fa-xl"></i></button>
+        </div>
+        <div class="chat-header__column">
+            <h1 class="chat-header__title">옥D</h1>
+        </div>
+        <div class="chat-header__column">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+          <i class="fa-solid fa-bars fa-xl"></i>
+          
+        </div>
+    </header>
+      
+
+    
+    <script src="https://kit.fontawesome.com/0f43e40f4c.js" crossorigin="anonymous"></script>
+
+    <script>
+      document.querySelector("#go-back").addEventListener("click", () => {
+        history.back();
+      });
+    </script>
+  </body>
+</html>
