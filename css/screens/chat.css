@@ -154,9 +154,10 @@
 .reply__column > button {
   background-color: yellow;
   border: none;
-  width: 35px;
-  height: 35px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
+  color: black;
 }
 
 .reply__column button:focus,
