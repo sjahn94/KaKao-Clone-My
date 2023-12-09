@@ -127,6 +127,10 @@
   width: 90%;
   position: relative;
 }
+
+.reply__column:first-child i {
+  opacity: 0.5;
+}
 .reply__column input {
   width: 100%;
   padding: 10px;
