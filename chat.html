@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Friends</title>
-
   </head>
   <body id="chat-screen">
     <div class="sidebar">
@@ -22,28 +21,27 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    
+
     <header class="chat-header">
-        <div class="chat-header__column">
-            <button id="go-back"><i class="fa-solid fa-chevron-left fa-xl"></i></button>
-        </div>
-        <div class="chat-header__column">
-            <h1 class="chat-header__title">옥D</h1>
-        </div>
-        <div class="chat-header__column">
-          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-          <i class="fa-solid fa-bars fa-xl"></i>
-          
-        </div>
-    </header>
-      
-    <main class="main-screen main-chat">
-      <div class="chat__timestamp">
-        2023년 12월 7일 목요일
+      <div class="chat-header__column">
+        <button id="go-back"><i class="fa-solid fa-chevron-left fa-xl"></i></button>
       </div>
+      <div class="chat-header__column">
+        <h1 class="chat-header__title">옥D</h1>
+      </div>
+      <div class="chat-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2023년 12월 7일 목요일</div>
 
       <div class="message-row">
-        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjNfMjY2%2FMDAxNjk1NDU0OTM5MDIy.3eEkOAJGZJmZeyYNXbXSIsBrF-KGk53txXYhAFWjgjog.-dU4GMQe4wo3BQVFNCLjOYemxLTAl3z28JUMIZiCfugg.PNG.ehdrb2922%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5%25C6%25C4%25C0%25CF%25A3%25DF20230904%25A3%25DF220255.png&type=a340">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjNfMjY2%2FMDAxNjk1NDU0OTM5MDIy.3eEkOAJGZJmZeyYNXbXSIsBrF-KGk53txXYhAFWjgjog.-dU4GMQe4wo3BQVFNCLjOYemxLTAl3z28JUMIZiCfugg.PNG.ehdrb2922%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5%25C6%25C4%25C0%25CF%25A3%25DF20230904%25A3%25DF220255.png&type=a340"
+        />
         <div class="message-row__content">
           <span class="message_author">옥D </span>
           <div class="message_info">
@@ -62,7 +60,20 @@
         </div>
       </div>
     </main>
-    
+
+    <form id="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+
+      <div class="reply__column">
+        <input type="text" placeholder="메세지 입력.." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
     <script src="https://kit.fontawesome.com/0f43e40f4c.js" crossorigin="anonymous"></script>
 
     <script>
