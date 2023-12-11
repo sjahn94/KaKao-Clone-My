@@ -4,6 +4,7 @@
 /* Component CSS */
 @import "components/sidebar.css";
 @import "components/navbar.css";
+@import "components/no-mobile.css";
 /* Screen CSS*/
 @import "screens/index.css";
 @import "screens/friends.css";
