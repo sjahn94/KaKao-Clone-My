@@ -17,6 +17,7 @@
     padding: 25px 20px;
 }
 
+
 .nav-list__column:last-child{
     position: relative;
 }
@@ -31,3 +32,35 @@
     left: 45px;
 }
 
+.nav-list__column:nth-child(2){
+    position: relative;
+}
+.nav-list__count{
+    background-color: tomato;
+    width: 28px;
+    height: 28px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 33px;
+    left:35px;
+}
+
+@keyframes countAnimation {
+    0%{
+        transform:none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.nav-list__count{
+    animation: countAnimation 2s ease-in-out infinite;
+}
