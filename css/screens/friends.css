@@ -107,3 +107,30 @@
 .fa-gear:hover{
     animation: gearAnimation 2s linear infinite;
 }
+
+@keyframes splashAnimation {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+#splash-screen{
+    background-color: yellow;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: splashAnimation 0.4s ease-in-out forwards;
+    animation-duration: 2s;
+}
+
