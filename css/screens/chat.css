@@ -54,10 +54,22 @@
   border-radius: 12px;
 }
 
+@keyframes messageSlide {
+  from{
+    margin-left: 10%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .message-row {
   width: 100%;
   display: flex;
   margin-top: 25px;
+  animation: messageSlide 1s ease-in-out;
 }
 
 .message-row img {
